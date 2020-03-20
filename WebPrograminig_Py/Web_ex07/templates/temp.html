@@ -1,0 +1,14 @@
+{% extends "layout.html" %}
+{% block content %}
+    <h4>Start Child Template</h4>
+    <br/>
+    <p> My String: {{my_string}}</p>
+    <p>List Value: {{my_list[2]}}</p>
+    <p>All List Value</p>
+    <ul>
+    {% for n in my_list%}
+    <li>{{n}}</li>
+    {%endfor%}
+    </ul>
+    <h4>End ChildTemplate</h4>
+{%endblock%}
