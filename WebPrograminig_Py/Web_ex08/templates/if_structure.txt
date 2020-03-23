@@ -1,0 +1,1 @@
+{% if truth  %}Yes{% else %}No{% endif %}

@@ -1,0 +1,1 @@
+{{data.name}}'s salary {{data.salary}}
