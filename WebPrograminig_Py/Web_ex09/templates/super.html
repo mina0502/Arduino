@@ -1,0 +1,27 @@
+<!-- Super block : super 를 호출하여 부모 블록의 내용을 렌더링한
+블럭 부모 블럭 결과 반환 -->
+
+
+
+{% extends "layout.html" %}
+
+{% block page%}Home{% endblock page %}
+
+{% block heading %}{{super()}}{% endblock heading %}
+
+{% block content %}
+    <h4>Start Child Template</h4>
+    <br/>
+    <p> My String: {{my_string}}</p>
+    <p>List Value: {{my_list[2]}}</p>
+    <p>All List Value</p>
+    <ul>
+    {% for n in my_list%}
+    <li>{{n}}</li>
+    {%endfor%}
+    </ul>
+    <h4>End ChildTemplate</h4>
+    {% block footer %}
+        {{ super()}}
+    {% endblock footer %}
+{%endblock content %}

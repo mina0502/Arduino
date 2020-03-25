@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+    <head>
+        <title>Flask Template Example</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel= "StyleSheet" media="screen">
+    </head>
+        <style type="text/css">
+        h3 {color:blue}
+        h4 {color:red}
+        .h{color:green}
+        </style>
+        <body>
+        	{%include 'nav.html' %}
+        	{% block heading %}
+                    <h1>{% block page %}{% endblock page %} - ex Jinja Super block</h1>
+        	{% endblock heading %}
+        <div class='wrap'>
+            <h3>parent Template</h3>
+            <br/>
+            {% block content %}{%endblock%}
+            <br/>
+            <h3>parent Template</h3>
+            <br/>
+            <div class="footer">
+                {% block footer%}
+                    <h2 class="h"> add footer field</h2>
+                {% endblock footer%}
+            </div>
+        </div>
+        <script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+        <script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+        </body>
+</html>
