@@ -1,0 +1,4 @@
+
+  {% macro input() -%}
+      <input type="{{kwargs['type'] or 'text'}}"name ="{{varargs[0]}}"value="{{kwargs['value']|e or ''}}" size="{{kwargs['size'] or 30}}">
+  {%- endmacro %}
