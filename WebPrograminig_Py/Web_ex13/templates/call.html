@@ -1,0 +1,13 @@
+    {%macro render_dialog(title,class='dialog') -%}
+        <div class="{{class}}">
+            <h2>{{title}}</h2>
+            <div class="contents">
+                {{caller()}}
+            </div>
+        </div>
+    {%- endmacro%}
+
+
+    {% call render_dialog('Call Block')%}
+        ★Call블록과 매크로는 동시에 사용하는 경우가 많다.★重要
+    {%endcall%}
