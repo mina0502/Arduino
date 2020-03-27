@@ -40,6 +40,6 @@
     user_list 형식 = [{'user_name':'DATA','name':'DATA','job':'data'},...]
     
 ------------------------------------------------------------------------------------
-img 사용 ..
-    UserData=[{'user_name':'宮本','name':'美奈','job':'学生'},{'user_name':'miyamoto','name':'mina','job':'student'},{'user_name':'미야모토','name':'미나','job':'학생'}]
+img 사용 .. UserData=[{'user_name':'宮本','name':'美奈','job':'学生'},{'user_name':'miyamoto','name':'mina','job':'student'},{'user_name':'미야모토','name':'미나','job':'학생'}]
+
 ------------------------------------------------------------------------------------
