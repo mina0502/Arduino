@@ -32,9 +32,13 @@
      세션 환경변수 변경
 
 app.config.update(
+
     SECRET_KEY='exam1234%'
+    
     SESSION_COOKIE_NAME=''
+    
     PERMANENT_SESSION_LIFETIME=''
+    
     )
 
 ------------------------------------------------------------------------------------------------------
