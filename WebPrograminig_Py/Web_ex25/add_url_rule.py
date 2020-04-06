@@ -1,0 +1,17 @@
+from flask import Flask
+
+app= Flask(__name__)
+
+def index():
+    return "Hello Flask!"
+
+app.add_url_rule('/','index',index)
+
+'''
+@app.route('/index')
+def index():
+    return "Hello Flask"
+
+'''
+if __name__ =="__main__":
+    app.run()

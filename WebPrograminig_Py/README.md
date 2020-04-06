@@ -46,4 +46,6 @@
 
 [24. Howto_Use Session](https://github.com/mina0502/Project/tree/master/WebPrograminig_Py/Web_ex24)
 
+[25. add_url_rule make_response json](https://github.com/mina0502/Project/tree/master/WebPrograminig_Py/Web_ex25)
+
 														- mina -
