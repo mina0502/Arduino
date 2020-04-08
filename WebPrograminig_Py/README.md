@@ -48,4 +48,8 @@
 
 [25. add_url_rule make_response json](https://github.com/mina0502/Project/tree/master/WebPrograminig_Py/Web_ex25)
 
+[26. request_Hooking, Global_Value](https://github.com/mina0502/Project/tree/master/WebPrograminig_Py/Web_ex26)
+
+[27. Login](https://github.com/mina0502/Project/tree/master/WebPrograminig_Py/Web_ex27)
+
 														- mina -
