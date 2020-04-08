@@ -52,4 +52,6 @@
 
 [27. Login](https://github.com/mina0502/Project/tree/master/WebPrograminig_Py/Web_ex27)
 
+[28. connect DataBase](https://github.com/mina0502/Project/tree/master/WebPrograminig_Py/Web_ex28)
+
 														- mina -
