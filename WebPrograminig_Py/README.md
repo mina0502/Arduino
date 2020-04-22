@@ -58,4 +58,6 @@
 
 [30. http_error_code](https://github.com/mina0502/Project/tree/master/WebPrograminig_Py/Web_ex30)
 
-															 mina 
+[31.Howto Use Time function ](https://github.com/mina0502/Project/tree/master/WebPrograminig_Py/Web_ex31)
+
+														 mina 
