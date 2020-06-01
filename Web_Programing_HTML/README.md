@@ -10,3 +10,12 @@
   </body>
 </html>
 ```
+```
+HTML head
+```
+```
+<head>
+    <meta charset="utf-8">
+    <title>My test page</title>
+  </head>
+```
