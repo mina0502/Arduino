@@ -1,6 +1,4 @@
 ```
-semantic tag
-
 <header> 	: 도입부
 <hgroup> 	: 제목, 부제목 
 <nav>	 	: 링크 존재
