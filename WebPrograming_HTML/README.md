@@ -4,6 +4,6 @@
 
 [2. イバグ道](https://github.com/mina0502/Project/tree/master/WebPrograming_HTML/ibagu)
 
-[3. 感想](https://github.com/mina0502/Project/tree/master/WebPrograming_HTML/comment)
+[3. 感想](https://github.com/mina0502/Project/tree/master/WebPrograming_HTML/comments)
 
 [Link](http://mina0502.dothome.co.kr)
