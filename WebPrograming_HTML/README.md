@@ -13,6 +13,6 @@
 
 [5. busan](https://github.com/mina0502/Project/tree/master/WebPrograming_HTML/busan)
 
-[6. busan](https://github.com/mina0502/Project/tree/master/WebPrograming_HTML/taejongdae)
+[6. taejongdae](https://github.com/mina0502/Project/tree/master/WebPrograming_HTML/taejongdae)
 
 [Link](http://mina0502.dothome.co.kr)
