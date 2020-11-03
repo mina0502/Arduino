@@ -1,0 +1,1 @@
+[1. DL Numpy](https://github.com/mina0502/Project/tree/master/DL/numpy)
