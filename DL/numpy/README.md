@@ -1,4 +1,4 @@
-'''
+```
 Numpy - 수치계산 / 다차원 배열 / 높은 수준의 수학함수
 
 pip3 install numpy
@@ -9,8 +9,8 @@ pip3 install numpy
  
  shape: 각차원의 크기를 튜플로 표시한 것
  ex) 2행 3열 2차원 배열 rank는 2, shape(2,3)
-'''
-'''
+```
+```
  numpy 배열 생성
 
  파이썬의 리스트를 사용
@@ -26,8 +26,8 @@ numpy에서 제공하는 함수를 사용
  eye() - 대각선으로 1, 나머지는 0인 2차원 배열 생성
  range(n) - 0 ~ (n-1)까지 숫자 생성
  reshape() - 다차원으로 변형
-''' 
-'''
+``` 
+```
 numpy 슬라이싱, 인덱싱, 연산
 
 numpy 슬라이싱
@@ -44,9 +44,9 @@ print(a)
 print(\n-----------------)
 b=arr[1:,1:]
 print(b)
-'''
+```
 
-'''
+```
 numpy integer indexing
 numpy 배열 a 대해 a[[row1,row2],[col1,col2]]
 a[row1,col1]와 a[row2,col2]라는 두개 배열 요소 집합 의미
@@ -64,8 +64,8 @@ a=np.array(list)
 #integer indexing
 res=a[[0,2],[1,3]] 
 print(res)
-'''
-'''
+```
+```
 boolean indexing
 
 list1=[
@@ -84,8 +84,8 @@ b_arr=np.array([
 n=aa[b_arr]
 
 print(n)
-'''
-'''
+```
+```
 boolean indexing 배열 생성 표현식으로 이용하기
 
 배열 a에 대해서 짝수인 배열요소만 True로 지정
@@ -94,8 +94,8 @@ arr[b_arr]
 
 n=arr[arr%2==0]
 print(n)
-'''
-'''
+```
+```
 numpy 연산
 
 연산자 이용할 경우  +, - , *, / 
@@ -136,8 +136,8 @@ b=np.array(list2)
 
 product(np.dot(a,b)
 print(product) # [[1*5+2*7,1*6+2*8],[3*5+4*7,3*6+4*8]] 
-'''
-'''
+```
+```
 numpy에서는 배열간 연산을 위한 여러 함수 제공
 
 sum() 각 배열의 요소 더함
@@ -151,8 +151,8 @@ s2=np.sum(a,axis=1) # [3 7]
 p= np.prod(a) # 24
 p1=np.prod(a,axis=0) # [3 8]
 p2=np.prod(a,axis=1) # [2 12]
-'''
-'''
+```
+```
 numpy 자료형
 int, float, bool, complex
 
@@ -168,9 +168,9 @@ complex64 : 두개의 32비트 부동소수점으로 표시되는 복소수
 complex32 : 두개의 64비트 부동소수점으로 표시되는 복소수
 
 dtype - 데이터 type 알아봄
-'''
+```
 
-'''
+```
 import numpy as np
 
 x= np.float32(1.0)
@@ -185,4 +185,5 @@ print(z.type) # dtype('float32')
 
 dd=np.arrange(2,3,0.2)
 print(dd) #array([2. , 2.2, 2.4, 2.6, 2.8])
-'''
+```
+
