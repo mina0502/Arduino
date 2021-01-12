@@ -34,11 +34,11 @@ php, asp 보다 보안이나 여러 측면에서 jsp가 우수
 
 ```
 ```
-  ##정적 웹 페이지
+  정적 웹 페이지
 
 - 컴퓨터에 저장된 텍스트 파일을 그대로 보는 것 (HTML[Hyper Text Markup Language])
 
-  ##동적 웹 페이지
+  동적 웹 페이지
 
 - 저장된 내용을 다른 변수로 가공 처리하여 보는 것 (PHP[Personal Home Page], ASP[Active Server Page],JSP[Java Server Page])
 ```
