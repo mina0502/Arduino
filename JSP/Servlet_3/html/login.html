@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>로그인 화면</title>
+<script type="text/javascript">
+function func_validate() {
+	var frmLogin=document.frmLogin;
+	var user_id=frmLogin.user_id.value;
+	var user_pw=frmLogin.user_pw.value;
+	
+	if((user_id.length==0) ||(user_id=="") || (user_pw.length==0) ||(user_pw=="") )
+		{
+			alert("ID/PW는 필수 사항")
+		}
+	
+	else
+	{
+		frmLogin.method="post";
+		frmLogin.action="login";
+		frmLogin.submit();
+	}
+}
+
+</script>
+
+</head>
+<body>
+	<form name="frmLogin" action="login" method="post" enctype="utf-8" >
+		ID: <input type="text" name="user_id"/><br/>
+		PW: <input type="password" name="user_pw"/><br/>
+		<input type="button" onclick="func_validate()" value="login"/>
+		<input type="reset" value="reset"/>
+		<input type="hidden" name="user_address" value="minakun"/>
+	</form>
+
+</body>
+</html>
