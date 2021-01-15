@@ -130,7 +130,7 @@ button이 클릭 되었을 경우, onclick에 있는 함수가 자동으로 호�
 
 	###initParam -> 상속계층도 쉽게 보기
 
-[Java API (ctrl+t) ] (https://javaee.github.io/javaee-spec/javadocs/)
+[Java API (ctrl+t) ](https://javaee.github.io/javaee-spec/javadocs/)
 
 ```
 	getServletContext()를 이용해서 web.xml파일의 context-param 값들을 가져다가 쓸 수 있음
