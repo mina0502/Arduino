@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>회원가입 창</title>
+</head>
+<body>
+	<form action="joinParam.jsp" method="get" enctype="utf-8">
+		Name: <input type="text" name="name" size="10" required="required"/><br/><br/>
+		ID: <input type="text" name="id" size="10" required="required"/><br/><br/>
+		PW: <input type="password" name="pw" size="10" required="required"/><br/><br/>
+		hobby: 	<br/><br/>
+				<input type="checkbox" name="hobby" value="독서"/>독서
+				<input type="checkbox" name="hobby" value="요리"/>요리
+				<input type="checkbox" name="hobby" value="싸이클"/>싸이클
+				<input type="checkbox" name="hobby" value="조깅"/>조깅
+				<input type="checkbox" name="hobby" value="공부"/>공부
+		<br/><br/>
+		major:	<br/>
+				<input type="radio" name="major" value="com" size="10" checked="checked"/>컴퓨터<br/>
+				<input type="radio" name="major" value="dis" size="10"/>디자인<br/>
+				<input type="radio" name="major" value="eng" size="10"/>영문<br/>
+				<input type="radio" name="major" value="IT" size="10"/>IT융합<br/> 		
+		<br/><br/>
+		gender: <br/>
+				<input type="radio" name="gender" value="male" checked="checked"/>남자<br/>
+				<input type="radio" name="gender" value="female"/>여자<br/>
+		<br/><br/>
+		job:	<br/>
+					<select name="job">
+					<option value="student">학생</option>
+					<option value="doctor">의사</option>
+					<option value="cook">요리사</option>
+					<option value="another" selected="selected">기타</option> 
+				</select>
+				<br/>
+				<br/><br/>
+			<input type="submit" value="회원가입" size="10">
+			<input type="reset" value="reset" size="10">
+	</form>
+	
+</body>
+</html>
