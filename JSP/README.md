@@ -11,3 +11,5 @@
 [21.01.20 JSP_2 - 내장객체, 쿠키, 세션, 예외처리](https://github.com/mina0502/Project/tree/master/JSP/JSP_2)
 
 [21.01.20 JSP_3 - 액션태그](https://github.com/mina0502/Project/tree/master/JSP/JSP_3)
+
+[21.01.21 JSP_4 - 자바빈](https://github.com/mina0502/Project/tree/master/JSP/JSP_4)
