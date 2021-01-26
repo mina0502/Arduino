@@ -1,3 +1,6 @@
+# 과제 
+
+### ModifyMember,DeleteMember 만들기
 ```
 	 커넥션 풀(DataBaseConnectionPool) 	
 *******************************************************************
