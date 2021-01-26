@@ -13,3 +13,7 @@
 [21.01.20 JSP_3 - 액션태그](https://github.com/mina0502/Project/tree/master/JSP/JSP_3)
 
 [21.01.21 JSP_4 - 자바빈](https://github.com/mina0502/Project/tree/master/JSP/JSP_4)
+
+[21.01.22 DB](https://github.com/mina0502/Project/tree/master/JSP/DB)
+
+[21.01.26 JDBC연동과 DB연동 객체들](https://github.com/mina0502/Project/tree/master/JSP/JDBC)
