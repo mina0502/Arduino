@@ -200,7 +200,7 @@ getAttrubuteNames(): 세션에 저장되어 있는 모든 데이터의 이름(�
 
 isNew(): 세션이 최초 생성되었는지, 이전에 생성된 세션인지 구분
 
-setMaxInactieInterval(int second) : 세션의 유효시간을 설정한다
+setMaxInactiveInterval(int second) : 세션의 유효시간을 설정한다
 
 getMaxInactiveInterval(): 세션의 유효시간을 얻음 || 가장 최근 요청시점을 기준으로 카운트
 
