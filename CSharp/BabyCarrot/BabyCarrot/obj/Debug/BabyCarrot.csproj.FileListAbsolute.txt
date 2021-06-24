@@ -1,0 +1,5 @@
+C:\Users\SH.Lee.TSB\Desktop\LEESEUNGHYEOP\CSharp\BabyCarrot\BabyCarrot\bin\Debug\BabyCarrot.dll
+C:\Users\SH.Lee.TSB\Desktop\LEESEUNGHYEOP\CSharp\BabyCarrot\BabyCarrot\bin\Debug\BabyCarrot.pdb
+C:\Users\SH.Lee.TSB\Desktop\LEESEUNGHYEOP\CSharp\BabyCarrot\BabyCarrot\obj\Debug\BabyCarrot.csprojResolveAssemblyReference.cache
+C:\Users\SH.Lee.TSB\Desktop\LEESEUNGHYEOP\CSharp\BabyCarrot\BabyCarrot\obj\Debug\BabyCarrot.dll
+C:\Users\SH.Lee.TSB\Desktop\LEESEUNGHYEOP\CSharp\BabyCarrot\BabyCarrot\obj\Debug\BabyCarrot.pdb
