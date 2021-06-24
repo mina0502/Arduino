@@ -1,0 +1,6 @@
+C:\Users\SH.Lee.TSB\Desktop\LEESEUNGHYEOP\CSharp\HelloCsharp\HelloCsharp\bin\Debug\HelloCsharp.exe.config
+C:\Users\SH.Lee.TSB\Desktop\LEESEUNGHYEOP\CSharp\HelloCsharp\HelloCsharp\bin\Debug\HelloCsharp.exe
+C:\Users\SH.Lee.TSB\Desktop\LEESEUNGHYEOP\CSharp\HelloCsharp\HelloCsharp\bin\Debug\HelloCsharp.pdb
+C:\Users\SH.Lee.TSB\Desktop\LEESEUNGHYEOP\CSharp\HelloCsharp\HelloCsharp\obj\Debug\HelloCsharp.csprojResolveAssemblyReference.cache
+C:\Users\SH.Lee.TSB\Desktop\LEESEUNGHYEOP\CSharp\HelloCsharp\HelloCsharp\obj\Debug\HelloCsharp.exe
+C:\Users\SH.Lee.TSB\Desktop\LEESEUNGHYEOP\CSharp\HelloCsharp\HelloCsharp\obj\Debug\HelloCsharp.pdb
