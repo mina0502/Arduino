@@ -93,7 +93,21 @@
 
 		 		cmd.Parameters.Add(pAddr);
 		...
+		
+		UPDATE와 DELETE 구문 (Table명)
+
+	UPDATE Table명 SET name ='김'; WHERE ID = 'test';
+
+	DELETE FROM Table명 WHERE ID = 'test';
+
+
+
+	데이터불러오기 --
+
+	SELECT * FROM Table명;
+
 */
+
 namespace DataEx1
 {
 	public partial class Form1:Form
@@ -102,14 +116,89 @@ namespace DataEx1
 		{
 			InitializeComponent();
 		}
+	Sqlconnection conn;
 
+		#region INSERT
 		private void button1_Click(object sender, EventArgs e)
 		{
-			string conStr = "Data Source=(localdb)\\ProjectsV13;Initial Catalog=MyDB;Integrated Security=true";
-			SqlConnection dbCon = new SqlConnection();
-			dbCon.Open(); // db 연결
-			MessageBox.Show("데이터베이스 연결");
+			
+			conn =dbConn();
+			
+			conn.Open(); // db 연결
+
+			string id = tb_id.Text;
+			string name = tb_name.Text;
+			string email = tb_email.Text;
+
+
+			string sql = "INSERT INTO Table VALUES ('"+id+"',N'"+name+"','"+email+"')";
+			SqlComand cmd =new SqlCommand(sql,conn);
+			cmd.ExecuteNonQuery();
+
+			MessageBox.Show("데이터 저장 완료");
+			conn.Close();
 		}
+		#endregion
+
+		#region UPDATE
+		private void button2_Click(object sender, EventArgs e)
+		{
+			conn= dbConn();
+			conn.Open();
+
+			string sql = "UPDATE Customer SET Name=N'김길동' WHERE Uid = 'test'";
+			SqlCommand cmd = new SqlCommand(sql,conn);
+			cmd.ExecuteNonQuery();
+
+			MessageBox.Show("데이터 수정 완료");
+			conn.Close();
+		}
+		#endregion
+
+		#region DELETE
+		private void button3_Click(object sender, EventArgs e)
+		{
+			conn=dbConn();
+			conn.Open();
+
+			string sql="DELETE FROM Customer WHERE Uid='test2'";
+			SqlCommand cmd = new SqlCommand(sql,conn);
+			cmd.ExecuteNonQuery();
+
+			MessageBox.Show("데이터 삭제 완료");
+			conn.Close();
+		}
+		#endregion
+
+		#region SELECT
+		private void button4_Click(object sender,EventArgs e)
+		{
+			conn= dbConn();
+			conn.Open();
+
+			string sql="SELECT * FROM Customer";
+			SqlCommand cmd = new SqlCommand(sql,conn);
+			SqlDataReader sqlReader= cmd.ExecuteReader(); // 데이터를 조회할 때 사용
+
+			while(sqlReader.Read())
+			{
+				string data =sqlReader["Uid"];+", "+sqlReader[1]+", "+sqlReader["Email"];
+				Debug.WriteLine(data); // using System.Diagnostics; (직접 실행창에서 확인)
+			}
+
+			sqlReader.Close(); 
+			conn.Close();
+		}
+ 		#endregion
+
+		#region dbConnection
+		private SqlConnection dbConn()
+		{
+			string conStr = "Data Source=(localdb)\\ProjectsV13;Initial Catalog=MyDB;Integrated Security=true";
+			SqlConnection conn = new SqlConnection();
+			return conn;
+		}
+		#endregion
 	}
 }
 ```
