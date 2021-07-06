@@ -195,7 +195,7 @@ namespace DataEx1
 		private SqlConnection dbConn()
 		{
 			string conStr = "Data Source=(localdb)\\ProjectsV13;Initial Catalog=MyDB;Integrated Security=true";
-			SqlConnection conn = new SqlConnection();
+			SqlConnection conn = new SqlConnection(conStr);
 			return conn;
 		}
 		#endregion
