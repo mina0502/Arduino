@@ -132,7 +132,7 @@ namespace DataEx1
 
 
 			string sql = "INSERT INTO Table VALUES ('"+id+"',N'"+name+"','"+email+"')";
-			SqlComand cmd =new SqlCommand(sql,conn);
+			SqlCommand cmd =new SqlCommand(sql,conn);
 			cmd.ExecuteNonQuery();
 
 			MessageBox.Show("데이터 저장 완료");
