@@ -182,7 +182,7 @@ namespace DataEx1
 
 			while(sqlReader.Read())
 			{
-				string data =sqlReader["Uid"];+", "+sqlReader[1]+", "+sqlReader["Email"];
+				string data =sqlReader["Uid"]+", "+sqlReader[1]+", "+sqlReader["Email"];
 				Debug.WriteLine(data); // using System.Diagnostics; (직접 실행창에서 확인)
 			}
 
