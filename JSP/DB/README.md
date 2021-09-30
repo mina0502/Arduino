@@ -119,7 +119,7 @@ DESCRIBE DB_NAME || DESC_DB_NAME - 테이블의 열이 무엇이 있는지 확�
 
 	DB 초기화
 
-DROP DATABASE IF EXISTES dbName; - dbName이 있으면 삭제
+DROP DATABASE IF EXISTS dbName; - dbName이 있으면 삭제
 
 CREATE DATABASE dbName;
 
